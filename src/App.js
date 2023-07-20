@@ -15,7 +15,7 @@ function App() {
   };
 
   const fetchImages = async () => {
-    const UNSPLASH = `https://api.unsplash.com/search/photos?page=1&query=${searchValue}&client_id=iy2jtWSQBcUaarGZwnsGCYJYF6LNw6qlnVRPuebR9pQ`;
+    const UNSPLASH = `https://api.unsplash.com/search/photos?page=1&query=${searchValue}&client_id=sVVyfzsW1Q7Q1l1R4GDgXHueEpVT9nb62mIP_6JMSSI`;
     axios.get(UNSPLASH).then((response) => {
       const result = response.data.results.map((photo) => ({
         url: photo.urls.full,
