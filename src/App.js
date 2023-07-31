@@ -65,8 +65,8 @@ function App() {
         </div>
       </div>
       <footer className="text-xs font-mono text-center mt-4 mb-4">
-        <a href="https://github.com/smolTypo/cuddly-barnacle">Open source code</a>{" "}
-        by smolTypo
+        <a href="https://github.com/smolTypo/dictionary">Open source code</a>{" "}
+        by Gemma Fong
       </footer>
     </div>
   );
